@@ -6,7 +6,7 @@ let icon = toggleButton.querySelector('.icon');
 if (!icon) {
     icon = document.createElement('span');
     icon.classList.add('icon');
-    icon.textContent = '☀️'; // Default sun icon
+    icon.textContent = ':3'; // Default sun icon
     icon.style.display = 'inline-block';
     icon.style.transition = 'transform 0.4s ease';
     toggleButton.prepend(icon);
