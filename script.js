@@ -17,13 +17,13 @@ toggleButton.addEventListener('click', () => {
 
     if(body.classList.contains('dark')) {
         // Dark mode
-        icon.textContent = '🌙';
+        icon.textContent = ':3';
         toggleButton.style.backgroundColor = '#f5f5f5';
         toggleButton.style.color = '#121212';
         icon.style.transform = 'translateX(5px)';
     } else {
         // Light mode
-        icon.textContent = '☀️';
+        icon.textContent = ':(';
         toggleButton.style.backgroundColor = '#121212';
         toggleButton.style.color = '#f5f5f5';
         icon.style.transform = 'translateX(-5px)';
