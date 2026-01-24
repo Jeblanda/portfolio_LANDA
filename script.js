@@ -8,6 +8,7 @@ if (!icon) {
     icon.textContent = ':3';
     icon.style.display = 'inline-block';
     icon.style.transition = 'transform 0.4s ease';
+    icon.style.marginRight = '8px';
     toggleButton.prepend(icon);
 }
 

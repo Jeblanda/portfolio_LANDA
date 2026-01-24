@@ -1,48 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>John Benedict A. Landa Portfolio</title>
-      <link rel="stylesheet" href="style.css">
-   </head>
-   <body>
-      <header>
-         <h1 id="name">JOHN BENEDICT A. LANDA</h1>
-         <img src="profilepic.jpg" alt="Profile Picture" id="profile-img">
-         <p id="course-year">BS Information System – 2nd Year</p>
-         <button id="theme-toggle">Switch Theme</button>
-      </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>John Benedict A. Landa | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-      <section id="achievements">
-         <h2>Achievements & Certifications</h2>
-         <ul>
-            <li>Dean’s Lister – Academic Excellence</li>
-            <li>Coursera – Certificates</li>
-            <li>ITS Java Exam – Certificate</li>
-         </ul>
+<nav class="top-nav">
+  <span class="logo">◎</span>
+  <ul>
+    <li>Projects</li>
+    <li>Blog</li>
+    <li>Learn</li>
+    <li>Clone me</li>
+    <li>Find me</li>
+  </ul>
+</nav>
 
-         <div class="image-section">
-            <img src="greensense.jpg" alt="GreenSense Project" class="project-img">
-            <p class="caption">GreenSense – Smart greenhouse monitoring system designed to help farmers improve efficiency and crop growth.</p>
-         </div>
+<section class="hero">
+  <div class="hero-left">
+    <h1 class="hello">Hello.</h1>
+    <h1 class="name">I’m John.</h1>
+    <p class="subtitle">
+      I’m a BS Information System student passionate about clean UI and web development.
+    </p>
+    <button id="theme-toggle">Switch Theme</button>
+  </div>
 
-         <div class="image-section">
-            <img src="javascriptmps.jpg" alt="JavaScript MPS" class="project-img">
-            <p class="caption">JavaScript MPS – A mini project showcasing JavaScript fundamentals and interactive web features.</p>
-         </div>
+  <div class="hero-right">
+    <img src="profilepic.jpg" alt="Profile Picture">
+  </div>
+</section>
 
-      </section>
+<section id="projects">
+  <h2>Featured Projects</h2>
 
-      <section id="projects">
-         <h2>Previous Projects</h2>
-         <ul>
-            <li><strong>SplitPay</strong> – A digital bill-splitting tool that allows users to divide expenses among groups easily. Users can enter a total amount, add participants, and quickly see each person’s share.</li>
+  <div class="project-grid">
 
-            <li><strong>CAPSTONE</strong> – Top 5 in Capstone 2023 by making a Roblox game using Lua.</li>
-         </ul>
-      </section>
+    <!-- GreenSense -->
+    <a href="https://jeblanda.github.io/LANDA_CASE_STUDY2/" target="_blank" class="project-link greensense">
+      <div class="project-card retro-window">
+        <div class="window-bar">
+          <span class="window-dots">◯ ◯</span>
+          <span class="window-title">greensense.project</span>
+        </div>
+        <img src="greensense.jpg" class="project-img">
+        <div class="project-text">
+          <h4>GreenSense</h4>
+          <p>Smart greenhouse monitoring system designed to help farmers improve efficiency.</p>
+        </div>
+      </div>
+    </a>
 
-      <script src="script.js"></script>
-   </body>
+    <!-- JavaScript MPS -->
+    <a href="https://jeblanda.github.io/JavascriptMPs/" target="_blank" class="project-link">
+      <div class="project-card retro-window">
+        <div class="window-bar">
+          <span class="window-dots">◯ ◯</span>
+          <span class="window-title">javascript-mps.project</span>
+        </div>
+        <img src="javascriptmps.jpg" class="project-img">
+        <div class="project-text">
+          <h4>JavaScript MPS</h4>
+          <p>A mini project showcasing JavaScript fundamentals and interaction.</p>
+        </div>
+      </div>
+    </a>
+
+    <!-- Tailwind -->
+    <a href="https://landa-webapp-demo.vercel.app/" target="_blank" class="project-link">
+      <div class="project-card retro-window">
+        <div class="window-bar">
+          <span class="window-dots">◯ ◯</span>
+          <span class="window-title">tailwind-ui.project</span>
+        </div>
+        <img src="tailwindcss.jpg" class="project-img">
+        <div class="project-text">
+          <h4>Tailwind CSS</h4>
+          <p>Responsive UI project built using Tailwind utility classes.</p>
+        </div>
+      </div>
+    </a>
+
+    <!-- Cozy Corner -->
+    <a href="https://thecozycornerbylandajb.vercel.app/" target="_blank" class="project-link">
+      <div class="project-card retro-window">
+        <div class="window-bar">
+          <span class="window-dots">◯ ◯</span>
+          <span class="window-title">cozycorner.project</span>
+        </div>
+        <img src="cozycorner.jpg" class="project-img">
+        <div class="project-text">
+          <h4>Cozy Corner</h4>
+          <p>JavaScript-based project focused on cozy UI and UX.</p>
+        </div>
+      </div>
+    </a>
+
+  </div>
+</section>
+
+<section id="currency">
+  <h2>New Project</h2>
+
+  <div class="project-grid">
+    <a href="https://landa-api.vercel.app/?fbclid=IwY2xjawPhLFpleHRuA2FlbQIxMABicmlkETFtc1dGNHlpRXJIQlpQTFdic3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHrA-CGFAPv_FMaWS4oganTjnFGQfSxXWJ5FIL2SymcXitp7BzFSgHVlfJdGw_aem_3vK1cA7ikg4-1bAbqEie1g"
+       target="_blank"
+       class="project-link">
+      <div class="project-card retro-window">
+        <div class="window-bar">
+          <span class="window-dots">◯ ◯</span>
+          <span class="window-title">currencyconverter.project</span>
+        </div>
+        <img src="currencyconverter.jpg" class="project-img">
+        <div class="project-text">
+          <h4>Currency Converter</h4>
+          <p>A web-based currency converter with a clean and user-friendly interface.</p>
+        </div>
+      </div>
+    </a>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
 </html>
